@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PH Artes | Design — Termos e Condições para serviços de artes digitais.">
+  <title>PH Artes | Design — Termos e Condições</title>
+  <style>
+    :root{
+      --bg:#0b0812;
+      --card:#15101f;
+      --card2:#1c1528;
+      --text:#f7f3ff;
+      --muted:#bcb3c9;
+      --accent:#a855f7;
+      --accent2:#22d3ee;
+      --line:rgba(255,255,255,.10);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:
+        radial-gradient(circle at 15% 0%, rgba(168,85,247,.20), transparent 32rem),
+        radial-gradient(circle at 90% 10%, rgba(34,211,238,.12), transparent 28rem),
+        var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    a{color:inherit}
+    .wrap{width:min(1050px,92%);margin:auto}
+    header{
+      padding:56px 0 34px;
+      border-bottom:1px solid var(--line);
+    }
+    .brand{
+      display:flex;align-items:center;gap:16px;
+    }
+    .logo{
+      width:70px;height:70px;border-radius:20px;
+      display:grid;place-items:center;
+      font-weight:900;font-size:24px;
+      background:linear-gradient(135deg,var(--accent),var(--accent2));
+      color:white;
+      box-shadow:0 12px 35px rgba(168,85,247,.25);
+    }
+    h1{margin:0;font-size:clamp(28px,5vw,48px);line-height:1.05}
+    .subtitle{color:var(--muted);margin:10px 0 0}
+    nav{
+      margin-top:28px;display:flex;gap:10px;flex-wrap:wrap;
+    }
+    nav a{
+      text-decoration:none;
+      background:rgba(255,255,255,.06);
+      border:1px solid var(--line);
+      padding:9px 13px;border-radius:999px;
+      color:#eee7f8;font-size:14px;
+    }
+    main{padding:34px 0 70px}
+    .notice{
+      background:linear-gradient(135deg,rgba(168,85,247,.14),rgba(34,211,238,.07));
+      border:1px solid rgba(168,85,247,.30);
+      border-radius:18px;padding:18px 20px;margin-bottom:22px;
+    }
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    section{
+      background:rgba(21,16,31,.88);
+      border:1px solid var(--line);
+      border-radius:18px;
+      padding:24px;
+      box-shadow:0 10px 30px rgba(0,0,0,.15);
+    }
+    section.full{grid-column:1/-1}
+    h2{margin:0 0 10px;font-size:21px}
+    p{margin:8px 0;color:#e6dfed}
+    ul{margin:10px 0 0;padding-left:22px;color:#e6dfed}
+    li{margin:7px 0}
+    .tag{
+      display:inline-block;font-size:12px;font-weight:700;
+      padding:4px 9px;border-radius:999px;
+      background:rgba(168,85,247,.16);
+      color:#d9b9ff;margin-bottom:10px;
+    }
+    footer{
+      border-top:1px solid var(--line);
+      padding:26px 0 40px;color:var(--muted);font-size:14px;
+    }
+    .contact{
+      display:inline-block;margin-top:8px;
+      padding:11px 15px;border-radius:12px;
+      text-decoration:none;font-weight:700;
+      background:linear-gradient(90deg,var(--accent),#7c3aed);
+      color:white;
+    }
+    @media(max-width:720px){
+      .grid{grid-template-columns:1fr}
+      section.full{grid-column:auto}
+      header{padding-top:35px}
+      .logo{width:58px;height:58px;border-radius:16px;font-size:20px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo">PH</div>
+        <div>
+          <h1>PH Artes | Design</h1>
+          <p class="subtitle">Termos e Condições</p>
+        </div>
+      </div>
+
+      <nav aria-label="Navegação">
+        <a href="#servico">Serviço</a>
+        <a href="#pedido">Pedidos</a>
+        <a href="#pagamento">Pagamento</a>
+        <a href="#alteracoes">Alterações</a>
+        <a href="#entrega">Entrega</a>
+        <a href="#cancelamento">Cancelamento</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="notice">
+      <strong>📄 Antes de fazer um pedido:</strong>
+      leia estas condições. Ao solicitar uma arte, o cliente confirma que teve acesso a estas informações.
+      <br><br>
+      <small>Última atualização: 16/09/2026</small>
+    </div>
+
+    <div class="grid">
+      <section id="servico">
+        <span class="tag">01</span>
+        <h2>Sobre o serviço</h2>
+        <p>A PH Artes | Design cria artes digitais personalizadas, como convites, posts, stories, banners e materiais semelhantes.</p>
+        <p>O serviço é digital. Não inclui impressão ou entrega física, salvo quando combinado separadamente.</p>
+      </section>
+
+      <section id="pedido">
+        <span class="tag">02</span>
+        <h2>Pedidos</h2>
+        <p>Para solicitar uma arte, o cliente deve informar o tipo de material, texto, data, tamanho/formato e referências que deseja utilizar.</p>
+        <p>O cliente é responsável por conferir os textos, nomes, datas e demais informações enviadas para a arte.</p>
+      </section>
+
+      <section id="pagamento">
+        <span class="tag">03</span>
+        <h2>Pagamento</h2>
+        <p>O valor é informado antes do início do trabalho, de acordo com o tipo e a complexidade da arte.</p>
+        <p>Formas de pagamento e eventuais condições são combinadas antes da produção. O pagamento é acompanhado pelo responsável do atendimento.</p>
+      </section>
+
+      <section id="alteracoes">
+        <span class="tag">04</span>
+        <h2>Alterações</h2>
+        <p>Pequenas correções de texto ou ajustes combinados podem ser feitos durante o processo.</p>
+        <p>Mudanças que alterem completamente a proposta inicial podem ser consideradas um novo trabalho e ter custo adicional, informado antes de realizar a alteração.</p>
+      </section>
+
+      <section id="entrega">
+        <span class="tag">05</span>
+        <h2>Prazo e entrega</h2>
+        <p>O prazo depende da complexidade da arte e será informado no momento do pedido.</p>
+        <p>A entrega será feita em formato digital combinado, como PNG ou JPG, quando aplicável.</p>
+      </section>
+
+      <section id="cancelamento">
+        <span class="tag">06</span>
+        <h2>Cancelamento</h2>
+        <p>Se o cliente quiser cancelar um pedido, deve avisar o quanto antes. As condições de reembolso, quando aplicáveis, dependem do estágio do trabalho e das regras legais aplicáveis.</p>
+        <p>Nenhum reembolso ou cobrança adicional deve ser considerado automaticamente garantido por esta página; situações específicas serão tratadas com o responsável pelo atendimento.</p>
+      </section>
+
+      <section class="full">
+        <span class="tag">07</span>
+        <h2>Uso das artes</h2>
+        <ul>
+          <li>O cliente pode utilizar a arte final para a finalidade combinada no pedido.</li>
+          <li>A PH Artes | Design pode solicitar autorização antes de publicar uma arte feita para cliente como exemplo de portfólio.</li>
+          <li>Materiais enviados pelo cliente devem ser utilizados somente para a finalidade do pedido.</li>
+          <li>O cliente deve possuir autorização para usar fotos, logotipos, textos ou outros materiais de terceiros que enviar.</li>
+        </ul>
+      </section>
+
+      <section class="full">
+        <span class="tag">08</span>
+        <h2>Responsabilidade do cliente</h2>
+        <p>O cliente deve revisar a versão final antes de utilizá-la. A PH Artes | Design não deve ser responsabilizada por informações incorretas que tenham sido fornecidas ou aprovadas pelo cliente.</p>
+      </section>
+
+      <section id="contato" class="full">
+        <span class="tag">09</span>
+        <h2>Contato e atendimento</h2>
+        <p>Para solicitar orçamento ou tirar dúvidas, entre em contato pelo Instagram:</p>
+        <a class="contact" href="https://www.instagram.com/ph_artes_design/" target="_blank" rel="noopener noreferrer">
+          @ph_artes_design
+        </a>
+        <p><small>Este documento é um modelo informativo. Antes de usar como contrato ou política comercial definitiva, peça ao seu responsável para revisar o texto.</small></p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © 2026 PH Artes | Design — Página de Termos e Condições.
+    </div>
+  </footer>
+</body>
+</html>
